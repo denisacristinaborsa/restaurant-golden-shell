@@ -1,0 +1,332 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header and Navigation */
+#navbar {
+    background-color: #ffd700; /* Golden color */
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.hamburger {
+    display: none;
+}
+
+/* Sections */
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+/* Gallery Section */
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photo-gallery img {
+    margin: 10px;
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #ffd700; /* Golden border */
+}
+
+/* Testimonials Section */
+.testimonials-carousel p {
+    background-color: #f0f0f0;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .hamburger {
+        display: initial;
+    }
+    #nav-menu.hidden {
+        display: none;
+    }
+    .photo-gallery {
+        flex-direction: column;
+    }
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header and Navigation */
+#navbar {
+    background-color: #ffd700; /* Golden color */
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.hamburger {
+    display: none;
+}
+
+/* Sections */
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+/* Gallery Section */
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photo-gallery img {
+    margin: 10px;
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #ffd700; /* Golden border */
+}
+
+/* Testimonials Section */
+.testimonials-carousel p {
+    background-color: #f0f0f0;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .hamburger {
+        display: initial;
+    }
+    #nav-menu.hidden {
+        display: none;
+    }
+    .photo-gallery {
+        flex-direction: column;
+    }
+}
+/* Existing styles */
+
+/* Google Maps Section */
+#map {
+    padding: 2em;
+}
+.map-container {
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    position: relative;
+}
+.map-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* Responsive Design for Map */
+@media (max-width: 600px) {
+    .map-container {
+        padding-top: 100%; /* Adjust aspect ratio for smaller screens */
+    }
+}
+/* Existing styles */
+
+/* Countdown Section */
+#countdown {
+    text-align: center;
+    padding: 2em;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+#timer div {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+/* Responsive Design for Countdown */
+@media (max-width: 600px) {
+    #timer {
+        flex-direction: column;
+    }
+}
+/* Existing styles */
+
+/* Accordion Section */
+#accordion {
+    padding: 2em;
+    text-align: left;
+}
+
+.accordion-button {
+    background-color: #ffd700; /* Golden color */
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-button:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.accordion-button.active:after {
+    content: "\2212";
+}
+
+.accordion-content {
+    padding: 0 15px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Responsive Design for Accordion */
+@media (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+}
+/* Existing styles */
+
+/* Accordion Section */
+#accordion {
+    padding: 2em;
+    text-align: left;
+}
+
+.accordion-button {
+    background-color: #ffd700; /* Golden color */
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-button:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.accordion-button.active:after {
+    content: "\2212";
+}
+
+.accordion-content {
+    padding: 0 15px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Responsive Design for Accordion */
+@media (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+}
+/* Existing styles */
+
+/* Layout styles */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content {
+    flex-grow: 1;
+    /* Add styles for your main content here */
+}
+
+.sidebar {
+    width: 300px; /* Adjust the width as necessary */
+    /* Add any additional styles for the sidebar */
+}
+
+/* Accordion Section */
+/* Existing styles */
+
+/* Banner Section */
+#banner {
+    background: url('golden-shell.png') no-repeat center center / cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#banner h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+#banner p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* Adjustments for container and other sections if necessary */
+.container {
+    /* Styles for main content container */
+}
+
+/* Continue with existing styles */
